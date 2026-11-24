@@ -1,0 +1,82 @@
+    a{
+        text-decoration: none;
+        background-color: lightgreen;
+        padding: 10px 20px;
+        margin-left: -20px;
+        color: gray;
+    }
+    a:hover{
+        background-color: lightblue;
+        color: black;
+        border: 2px solid black;
+    }
+    body {
+        background-color: darkgreen;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    nav {
+        background-color: white;
+        padding: 12px;
+        position: fixed;
+    }
+
+    nav a {
+        color: darkgreen;
+        margin-right: 15px;
+    }
+    h1, h2, .intro {
+            color: white;
+        }
+
+        .row, .row2 {
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .row {
+            background-color: lightgreen;
+        }
+
+        .row2 {
+            background-color: lightyellow;
+        }
+
+        .col {
+            width: 33.33%;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 650px) {
+            .row, .row2 {
+                flex-direction: column;
+            }
+        }
+
+            .col {
+                width: 100%;
+            }
+        .row3 {
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+            background-color: lightgreen;
+        }
+        .col3 {
+            width: 50%;
+            text-align: center;
+        }
+       .row4{
+            background-color: lightgreen;
+        }
+        .col4{
+            width: 50%;
+            float:left;
+        }
