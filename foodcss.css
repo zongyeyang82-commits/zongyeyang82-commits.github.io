@@ -27,6 +27,7 @@
     }
     h1, h2, .intro {
             color: white;
+        font-family:Tiny5 Duo
         }
 
         .row, .row2 {
@@ -79,3 +80,6 @@
             width: 50%;
             float:left;
         }
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
